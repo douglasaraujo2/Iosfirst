@@ -14,6 +14,10 @@
 		AC12A0831F4E55300011A33C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12A0821F4E55300011A33C /* ThirdViewController.swift */; };
 		AC12A0851F4E571C0011A33C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12A0841F4E571C0011A33C /* SecondViewController.swift */; };
 		AC12A0861F4E57B70011A33C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12A0721F4E39260011A33C /* ViewController.swift */; };
+		AC12A08A1F4E614C0011A33C /* TabNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC12A0891F4E614C0011A33C /* TabNavigation.storyboard */; };
+		AC12A08C1F4E64860011A33C /* CyanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12A08B1F4E64860011A33C /* CyanViewController.swift */; };
+		AC12A08F1F4E65360011A33C /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12A08D1F4E65360011A33C /* NewViewController.swift */; };
+		AC12A0901F4E65360011A33C /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC12A08E1F4E65360011A33C /* NewViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		AC12A07C1F4E39260011A33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC12A0821F4E55300011A33C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		AC12A0841F4E571C0011A33C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AC12A0891F4E614C0011A33C /* TabNavigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabNavigation.storyboard; sourceTree = "<group>"; };
+		AC12A08B1F4E64860011A33C /* CyanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CyanViewController.swift; path = ../CyanViewController.swift; sourceTree = "<group>"; };
+		AC12A08D1F4E65360011A33C /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		AC12A08E1F4E65360011A33C /* NewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				AC12A0701F4E39260011A33C /* AppDelegate.swift */,
+				AC12A08B1F4E64860011A33C /* CyanViewController.swift */,
 				AC12A0721F4E39260011A33C /* ViewController.swift */,
 				AC12A0741F4E39260011A33C /* Main.storyboard */,
 				AC12A0841F4E571C0011A33C /* SecondViewController.swift */,
@@ -66,6 +75,9 @@
 				AC12A0771F4E39260011A33C /* Assets.xcassets */,
 				AC12A0791F4E39260011A33C /* LaunchScreen.storyboard */,
 				AC12A07C1F4E39260011A33C /* Info.plist */,
+				AC12A0891F4E614C0011A33C /* TabNavigation.storyboard */,
+				AC12A08D1F4E65360011A33C /* NewViewController.swift */,
+				AC12A08E1F4E65360011A33C /* NewViewController.xib */,
 			);
 			path = Aula04;
 			sourceTree = "<group>";
@@ -130,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC12A07B1F4E39260011A33C /* LaunchScreen.storyboard in Resources */,
+				AC12A0901F4E65360011A33C /* NewViewController.xib in Resources */,
 				AC12A0781F4E39260011A33C /* Assets.xcassets in Resources */,
+				AC12A08A1F4E614C0011A33C /* TabNavigation.storyboard in Resources */,
 				AC12A0761F4E39260011A33C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +159,9 @@
 				AC12A0851F4E571C0011A33C /* SecondViewController.swift in Sources */,
 				AC12A0831F4E55300011A33C /* ThirdViewController.swift in Sources */,
 				AC12A0861F4E57B70011A33C /* ViewController.swift in Sources */,
+				AC12A08F1F4E65360011A33C /* NewViewController.swift in Sources */,
 				AC12A0711F4E39260011A33C /* AppDelegate.swift in Sources */,
+				AC12A08C1F4E64860011A33C /* CyanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
